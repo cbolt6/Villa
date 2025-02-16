@@ -1,0 +1,188 @@
+/* styles/style.css */
+
+/* Global Resets & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo .villa-logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav ul li a:hover {
+  color: #2c5b86;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c5b86;
+}
+
+.hero-content p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  font-weight: 300;
+}
+
+.btn-primary {
+  background-color: #2c5b86;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #224766;
+}
+
+/* Section Containers */
+.section-container {
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c5b86;
+}
+
+.alt-bg {
+  background-color: #f0f8ff;
+}
+
+/* Services Lists */
+.services-list {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.services-list li {
+  margin-bottom: 0.75rem;
+}
+
+/* Assistant Section */
+.assistant-list {
+  list-style: none;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Team Section */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-member {
+  flex: 1;
+  min-width: 280px;
+}
+
+.team-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.team-summary {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Contact Section */
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.contact-section h2 {
+  grid-column: 1 / -1;
+}
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.waitlist-form label {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.waitlist-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-info {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2c5b86;
+  color: #fff;
+}
